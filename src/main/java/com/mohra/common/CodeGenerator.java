@@ -3,8 +3,8 @@ package com.mohra.common;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.mohra.SystemCodeBean;
 import com.mohra.common.staticdata.CodeType;
+import com.mohra.config.SystemCodeBean;
 import com.mohra.entity.AppEntityCode;
 import com.mohra.repository.AppEntityCodeRepository;
 import com.mohra.repository.SystemCodeRepository;

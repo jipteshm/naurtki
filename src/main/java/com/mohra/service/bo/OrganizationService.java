@@ -4,13 +4,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.mohra.SystemCodeBean;
-import com.mohra.SystemCodeConfiguration;
 import com.mohra.common.CodeGenerator;
 import com.mohra.common.staticdata.CodeType;
 import com.mohra.common.staticdata.Constants;
 import com.mohra.common.staticdata.ROLES;
 import com.mohra.common.staticdata.UserType;
+import com.mohra.config.SystemCodeBean;
+import com.mohra.config.SystemCodeConfiguration;
 import com.mohra.dto.OrganizationInfo;
 import com.mohra.dto.UserRoleInfo;
 import com.mohra.entity.Organization;

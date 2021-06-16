@@ -1,4 +1,4 @@
-package com.mohra;
+package com.mohra.config;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -14,7 +14,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.mohra.JwtRequestFilter;
+import com.mohra.filter.JwtRequestFilter;
 import com.mohra.service.bo.AuthenticationService;
 
 /*

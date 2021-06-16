@@ -1,4 +1,4 @@
-package com.mohra;
+package com.mohra.filter;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.beans.factory.annotation.Autowired;

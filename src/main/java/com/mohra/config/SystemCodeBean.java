@@ -1,4 +1,4 @@
-package com.mohra;
+package com.mohra.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
