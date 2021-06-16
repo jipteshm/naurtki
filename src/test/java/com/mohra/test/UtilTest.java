@@ -1,4 +1,4 @@
-package com.itgarden.test;
+package com.mohra.test;
 
 
 import org.junit.jupiter.api.Test;
