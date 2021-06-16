@@ -1,6 +1,7 @@
-package com.itgarden.dto;
+package com.mohrait.dto;
 
-import com.itgarden.common.staticdata.StockStatus;
+import com.mohrait.common.staticdata.StockStatus;
+
 import lombok.Getter;
 import lombok.Setter;
 

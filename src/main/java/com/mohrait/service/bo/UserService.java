@@ -1,12 +1,13 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.entity.User;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.UserRepository;
-import com.itgarden.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.entity.User;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.UserRepository;
+import com.mohrait.service.BaseService;
 
 /*
  * Created by Suresh Stalin on 04 / Nov / 2020.

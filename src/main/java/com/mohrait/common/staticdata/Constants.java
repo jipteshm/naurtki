@@ -1,4 +1,4 @@
-package com.itgarden.common.staticdata;
+package com.mohrait.common.staticdata;
 
 /*
  * Created by Suresh Stalin on 23 / Nov / 2020.

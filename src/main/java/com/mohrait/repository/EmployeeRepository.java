@@ -1,9 +1,10 @@
-package com.itgarden.repository;
+package com.mohrait.repository;
 
-import com.itgarden.entity.Employee;
 import org.springframework.context.annotation.Primary;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.mohrait.entity.Employee;
 
 /*
  * Created by Suresh Stalin on 20 / Oct / 2020.

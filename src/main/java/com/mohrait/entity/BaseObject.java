@@ -1,4 +1,4 @@
-package com.itgarden.entity;
+package com.mohrait.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;

@@ -1,11 +1,11 @@
-package com.itgarden.mapper.impl;
-
-import com.itgarden.dto.RoleInfo;
-import com.itgarden.entity.Employee;
-import com.itgarden.entity.Role;
-import com.itgarden.mapper.RoleMapper;
+package com.mohrait.mapper.impl;
 
 import javax.annotation.Generated;
+
+import com.mohrait.dto.RoleInfo;
+import com.mohrait.entity.Employee;
+import com.mohrait.entity.Role;
+import com.mohrait.mapper.RoleMapper;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",

@@ -1,16 +1,17 @@
-package com.itgarden.mapper.impl;
-
-import com.itgarden.dto.AddressInfo;
-import com.itgarden.dto.CustomerInfo;
-import com.itgarden.dto.RoleInfo;
-import com.itgarden.dto.UserInfo;
-import com.itgarden.entity.Address;
-import com.itgarden.entity.Customer;
-import com.itgarden.entity.Role;
-import com.itgarden.entity.User;
-import com.itgarden.mapper.CustomerMapper;
+package com.mohrait.mapper.impl;
 
 import javax.annotation.Generated;
+
+import com.mohrait.dto.AddressInfo;
+import com.mohrait.dto.CustomerInfo;
+import com.mohrait.dto.RoleInfo;
+import com.mohrait.dto.UserInfo;
+import com.mohrait.entity.Address;
+import com.mohrait.entity.Customer;
+import com.mohrait.entity.Role;
+import com.mohrait.entity.User;
+import com.mohrait.mapper.CustomerMapper;
+
 import java.util.ArrayList;
 import java.util.List;
 

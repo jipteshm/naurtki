@@ -1,14 +1,5 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.common.Utils;
-import com.itgarden.common.staticdata.TokenType;
-import com.itgarden.dto.AuthenticationResponseInfo;
-import com.itgarden.dto.GrandAuthorityRoleInfo;
-import com.itgarden.entity.JwtToken;
-import com.itgarden.mapper.JwtResponseMapper;
-import com.itgarden.repository.JwtTokenRepository;
-import com.itgarden.repository.UserRepository;
-import com.itgarden.security.JwtUtils;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
@@ -17,6 +8,16 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.common.Utils;
+import com.mohrait.common.staticdata.TokenType;
+import com.mohrait.dto.AuthenticationResponseInfo;
+import com.mohrait.dto.GrandAuthorityRoleInfo;
+import com.mohrait.entity.JwtToken;
+import com.mohrait.mapper.JwtResponseMapper;
+import com.mohrait.repository.JwtTokenRepository;
+import com.mohrait.repository.UserRepository;
+import com.mohrait.security.JwtUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,7 +44,7 @@ public class AuthenticationService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String emailId) throws UsernameNotFoundException {
-        com.itgarden.entity.User user = userRepository.findByEmailId(emailId);
+        com.mohrait.entity.User user = userRepository.findByEmailId(emailId);
         GrandAuthorityRoleInfo grandAuthorityRoleSuperAdmin = new GrandAuthorityRoleInfo("SUPER_ADMIN");
         GrandAuthorityRoleInfo grandAuthorityRoleEmployee = new GrandAuthorityRoleInfo("ROLE_EMPLOYEE");
         List<GrandAuthorityRoleInfo> authorities = new ArrayList<>();

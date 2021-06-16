@@ -1,8 +1,9 @@
-package com.itgarden.repository;
+package com.mohrait.repository;
 
-import com.itgarden.entity.Employee;
-import com.itgarden.entity.Vendor;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.mohrait.entity.Employee;
+import com.mohrait.entity.Vendor;
 
 /*
  * Created by Suresh Stalin on 02 / Nov / 2020.

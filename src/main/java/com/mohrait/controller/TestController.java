@@ -1,12 +1,13 @@
-package com.itgarden.controller;
+package com.mohrait.controller;
 
-import com.itgarden.dto.UserInfo;
-import com.itgarden.entity.User;
-import com.itgarden.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.mohrait.dto.UserInfo;
+import com.mohrait.entity.User;
+import com.mohrait.mapper.UserMapper;
 
 
 /*

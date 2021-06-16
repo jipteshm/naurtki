@@ -1,0 +1,5 @@
+2021-06-13 00:01:31,054 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on HYDLPT-2GMS4 with PID 21468 (C:\Users\moharaji\git\billingsystem\target\classes started by moharaji in C:\Users\moharaji\git\billingsystem)
+2021-06-13 00:01:31,104 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-13 00:01:47,014 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 17.07 seconds (JVM running for 18.762)
+2021-06-13 00:02:02,369 INFO com.itgarden.exception.BillingExceptionHandler [http-nio-9091-exec-3] Clsss name com.itgarden.exception.InvalidUserNamePasswordException
+2021-06-13 00:02:02,370 INFO com.itgarden.exception.BillingExceptionHandler [http-nio-9091-exec-3] type name com.itgarden.exception.InvalidUserNamePasswordException

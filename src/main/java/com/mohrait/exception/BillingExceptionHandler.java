@@ -1,7 +1,5 @@
-package com.itgarden.exception;
+package com.mohrait.exception;
 
-import com.itgarden.common.Utils;
-import com.itgarden.messages.ErrorMessage;
 import io.jsonwebtoken.ExpiredJwtException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -18,6 +16,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+import com.mohrait.common.Utils;
+import com.mohrait.messages.ErrorMessage;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

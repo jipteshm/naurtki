@@ -1,9 +1,6 @@
-package com.itgarden.controller;
+package com.mohrait.controller;
 
 
-import com.itgarden.dto.OrganizationInfo;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.service.bo.OrganizationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +8,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.mohrait.dto.OrganizationInfo;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.service.bo.OrganizationService;
 
 /*
  * Created by Suresh Stalin on 24 / Nov / 2020.

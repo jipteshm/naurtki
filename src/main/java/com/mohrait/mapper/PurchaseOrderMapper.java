@@ -1,12 +1,13 @@
-package com.itgarden.mapper;
+package com.mohrait.mapper;
 
-import com.itgarden.dto.ProductItemInfo;
-import com.itgarden.dto.PurchaseOrderInfo;
-import com.itgarden.entity.ProductItem;
-import com.itgarden.entity.PurchaseOrder;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
+
+import com.mohrait.dto.ProductItemInfo;
+import com.mohrait.dto.PurchaseOrderInfo;
+import com.mohrait.entity.ProductItem;
+import com.mohrait.entity.PurchaseOrder;
 
 @Mapper(implementationPackage = "mapper.impl")
 public interface PurchaseOrderMapper {

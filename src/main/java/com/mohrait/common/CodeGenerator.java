@@ -1,12 +1,13 @@
-package com.itgarden.common;
+package com.mohrait.common;
 
-import com.itgarden.SystemCodeBean;
-import com.itgarden.common.staticdata.CodeType;
-import com.itgarden.entity.AppEntityCode;
-import com.itgarden.repository.AppEntityCodeRepository;
-import com.itgarden.repository.SystemCodeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import com.mohrait.SystemCodeBean;
+import com.mohrait.common.staticdata.CodeType;
+import com.mohrait.entity.AppEntityCode;
+import com.mohrait.repository.AppEntityCodeRepository;
+import com.mohrait.repository.SystemCodeRepository;
 
 import java.util.Random;
 

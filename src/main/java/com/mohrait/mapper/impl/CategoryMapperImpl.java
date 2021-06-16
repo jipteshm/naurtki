@@ -1,10 +1,10 @@
-package com.itgarden.mapper.impl;
-
-import com.itgarden.dto.CategoryInfo;
-import com.itgarden.entity.Category;
-import com.itgarden.mapper.CategoryMapper;
+package com.mohrait.mapper.impl;
 
 import javax.annotation.Generated;
+
+import com.mohrait.dto.CategoryInfo;
+import com.mohrait.entity.Category;
+import com.mohrait.mapper.CategoryMapper;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",

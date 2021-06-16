@@ -1,24 +1,25 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.SystemCodeBean;
-import com.itgarden.SystemCodeConfiguration;
-import com.itgarden.common.CodeGenerator;
-import com.itgarden.common.staticdata.CodeType;
-import com.itgarden.common.staticdata.Constants;
-import com.itgarden.common.staticdata.ROLES;
-import com.itgarden.common.staticdata.UserType;
-import com.itgarden.dto.OrganizationInfo;
-import com.itgarden.dto.UserRoleInfo;
-import com.itgarden.entity.Organization;
-import com.itgarden.entity.Role;
-import com.itgarden.exception.DuplicateKeyFoundException;
-import com.itgarden.mapper.OrganizationMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.OrganizationRepository;
-import com.itgarden.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.SystemCodeBean;
+import com.mohrait.SystemCodeConfiguration;
+import com.mohrait.common.CodeGenerator;
+import com.mohrait.common.staticdata.CodeType;
+import com.mohrait.common.staticdata.Constants;
+import com.mohrait.common.staticdata.ROLES;
+import com.mohrait.common.staticdata.UserType;
+import com.mohrait.dto.OrganizationInfo;
+import com.mohrait.dto.UserRoleInfo;
+import com.mohrait.entity.Organization;
+import com.mohrait.entity.Role;
+import com.mohrait.exception.DuplicateKeyFoundException;
+import com.mohrait.mapper.OrganizationMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.OrganizationRepository;
+import com.mohrait.service.BaseService;
 
 import java.util.ArrayList;
 import java.util.List;

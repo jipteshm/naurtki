@@ -1,11 +1,13 @@
-package com.itgarden.entity;
+package com.mohrait.entity;
 
-import com.itgarden.common.staticdata.PurchaseOrderStatus;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.naming.Name;
 import javax.persistence.*;
+
+import com.mohrait.common.staticdata.PurchaseOrderStatus;
+
 import java.util.List;
 
 /*

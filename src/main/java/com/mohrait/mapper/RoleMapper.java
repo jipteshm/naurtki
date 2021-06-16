@@ -1,11 +1,12 @@
-package com.itgarden.mapper;
+package com.mohrait.mapper;
 
-import com.itgarden.dto.RoleInfo;
-import com.itgarden.entity.Employee;
-import com.itgarden.entity.Role;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
+
+import com.mohrait.dto.RoleInfo;
+import com.mohrait.entity.Employee;
+import com.mohrait.entity.Role;
 
 /*
  * Created by Suresh Stalin on 19 / Oct / 2020.

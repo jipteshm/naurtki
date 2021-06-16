@@ -1,10 +1,11 @@
-package com.itgarden.mapper;
+package com.mohrait.mapper;
 
-import com.itgarden.dto.CustomerInfo;
-import com.itgarden.entity.Customer;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
+
+import com.mohrait.dto.CustomerInfo;
+import com.mohrait.entity.Customer;
 
 /*
  * Created by Suresh Stalin on 18 / Oct / 2020.

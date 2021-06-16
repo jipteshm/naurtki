@@ -1,13 +1,14 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.common.staticdata.Constants;
-import com.itgarden.dto.UserRoleInfo;
-import com.itgarden.entity.Role;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.RoleRepository;
-import com.itgarden.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.common.staticdata.Constants;
+import com.mohrait.dto.UserRoleInfo;
+import com.mohrait.entity.Role;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.RoleRepository;
+import com.mohrait.service.BaseService;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

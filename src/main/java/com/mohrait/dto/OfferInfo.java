@@ -1,4 +1,4 @@
-package com.itgarden.dto;
+package com.mohrait.dto;
 
 import lombok.Getter;
 import lombok.Setter;

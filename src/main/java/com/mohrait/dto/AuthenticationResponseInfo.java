@@ -1,4 +1,4 @@
-package com.itgarden.dto;
+package com.mohrait.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;

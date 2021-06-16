@@ -1,9 +1,10 @@
-package com.itgarden.validator;
+package com.mohrait.validator;
 
-import com.itgarden.dto.*;
-import com.itgarden.exception.InvalidInputException;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
+
+import com.mohrait.dto.*;
+import com.mohrait.exception.InvalidInputException;
 
 import java.util.ArrayList;
 import java.util.List;

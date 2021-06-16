@@ -1,25 +1,26 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.common.CodeGenerator;
-import com.itgarden.common.TaxCalculation;
-import com.itgarden.common.TaxCalculationInput;
-import com.itgarden.common.TaxCalculationResponse;
-import com.itgarden.common.staticdata.CodeType;
-import com.itgarden.common.staticdata.PurchaseOrderStatus;
-import com.itgarden.dto.PurchaseOrderInfo;
-import com.itgarden.entity.Category;
-import com.itgarden.entity.PurchaseOrder;
-import com.itgarden.entity.Tax;
-import com.itgarden.entity.Vendor;
-import com.itgarden.mapper.PurchaseOrderMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.CategoryRepository;
-import com.itgarden.repository.PurchaseOrderRepository;
-import com.itgarden.repository.TaxRepository;
-import com.itgarden.repository.VendorRepository;
-import com.itgarden.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.common.CodeGenerator;
+import com.mohrait.common.TaxCalculation;
+import com.mohrait.common.TaxCalculationInput;
+import com.mohrait.common.TaxCalculationResponse;
+import com.mohrait.common.staticdata.CodeType;
+import com.mohrait.common.staticdata.PurchaseOrderStatus;
+import com.mohrait.dto.PurchaseOrderInfo;
+import com.mohrait.entity.Category;
+import com.mohrait.entity.PurchaseOrder;
+import com.mohrait.entity.Tax;
+import com.mohrait.entity.Vendor;
+import com.mohrait.mapper.PurchaseOrderMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.CategoryRepository;
+import com.mohrait.repository.PurchaseOrderRepository;
+import com.mohrait.repository.TaxRepository;
+import com.mohrait.repository.VendorRepository;
+import com.mohrait.service.BaseService;
 
 import java.util.ArrayList;
 import java.util.List;

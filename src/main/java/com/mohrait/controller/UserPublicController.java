@@ -1,21 +1,5 @@
-package com.itgarden.controller;
+package com.mohrait.controller;
 
-import com.itgarden.common.staticdata.TokenType;
-import com.itgarden.common.staticdata.UserType;
-import com.itgarden.dto.AuthenticationRequestInfo;
-import com.itgarden.dto.AuthenticationResponseInfo;
-import com.itgarden.dto.EmployeeInfo;
-import com.itgarden.dto.UserRoleInfo;
-import com.itgarden.entity.JwtToken;
-import com.itgarden.exception.DuplicateKeyFoundException;
-import com.itgarden.exception.InvalidTokenException;
-import com.itgarden.exception.InvalidUserNamePasswordException;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.security.JwtUtils;
-import com.itgarden.service.bo.AuthenticationService;
-import com.itgarden.service.bo.RegistrationService;
-import com.itgarden.service.bo.RoleService;
-import com.itgarden.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -25,6 +9,23 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
+
+import com.mohrait.common.staticdata.TokenType;
+import com.mohrait.common.staticdata.UserType;
+import com.mohrait.dto.AuthenticationRequestInfo;
+import com.mohrait.dto.AuthenticationResponseInfo;
+import com.mohrait.dto.EmployeeInfo;
+import com.mohrait.dto.UserRoleInfo;
+import com.mohrait.entity.JwtToken;
+import com.mohrait.exception.DuplicateKeyFoundException;
+import com.mohrait.exception.InvalidTokenException;
+import com.mohrait.exception.InvalidUserNamePasswordException;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.security.JwtUtils;
+import com.mohrait.service.bo.AuthenticationService;
+import com.mohrait.service.bo.RegistrationService;
+import com.mohrait.service.bo.RoleService;
+import com.mohrait.validator.UserValidator;
 
 import javax.validation.Valid;
 

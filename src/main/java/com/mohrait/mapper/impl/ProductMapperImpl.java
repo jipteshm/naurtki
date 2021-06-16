@@ -1,10 +1,11 @@
-package com.itgarden.mapper.impl;
-
-import com.itgarden.dto.*;
-import com.itgarden.entity.*;
-import com.itgarden.mapper.ProductMapper;
+package com.mohrait.mapper.impl;
 
 import javax.annotation.Generated;
+
+import com.mohrait.dto.*;
+import com.mohrait.entity.*;
+import com.mohrait.mapper.ProductMapper;
+
 import java.util.ArrayList;
 import java.util.List;
 

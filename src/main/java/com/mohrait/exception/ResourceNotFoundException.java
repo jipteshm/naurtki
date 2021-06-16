@@ -1,4 +1,4 @@
-package com.itgarden.exception;
+package com.mohrait.exception;
 
 /*
  * Created by Suresh Stalin on 20 / Oct / 2020.

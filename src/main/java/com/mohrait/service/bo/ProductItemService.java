@@ -1,18 +1,19 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.common.CodeGenerator;
-import com.itgarden.common.staticdata.CodeType;
-import com.itgarden.common.staticdata.Constants;
-import com.itgarden.common.staticdata.StockStatus;
-import com.itgarden.dto.ProductItemInfo;
-import com.itgarden.entity.Product;
-import com.itgarden.entity.ProductItem;
-import com.itgarden.mapper.ProductItemMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.ProductItemRepository;
-import com.itgarden.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.common.CodeGenerator;
+import com.mohrait.common.staticdata.CodeType;
+import com.mohrait.common.staticdata.Constants;
+import com.mohrait.common.staticdata.StockStatus;
+import com.mohrait.dto.ProductItemInfo;
+import com.mohrait.entity.Product;
+import com.mohrait.entity.ProductItem;
+import com.mohrait.mapper.ProductItemMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.ProductItemRepository;
+import com.mohrait.service.BaseService;
 
 import java.util.ArrayList;
 import java.util.List;

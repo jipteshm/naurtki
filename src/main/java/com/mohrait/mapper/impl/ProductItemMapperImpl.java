@@ -1,10 +1,10 @@
-package com.itgarden.mapper.impl;
-
-import com.itgarden.dto.ProductItemInfo;
-import com.itgarden.entity.ProductItem;
-import com.itgarden.mapper.ProductItemMapper;
+package com.mohrait.mapper.impl;
 
 import javax.annotation.Generated;
+
+import com.mohrait.dto.ProductItemInfo;
+import com.mohrait.entity.ProductItem;
+import com.mohrait.mapper.ProductItemMapper;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",

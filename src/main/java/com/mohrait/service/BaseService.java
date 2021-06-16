@@ -1,10 +1,11 @@
-package com.itgarden.service;
+package com.mohrait.service;
 
 
-import com.itgarden.messages.ResponseMessage;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import com.mohrait.messages.ResponseMessage;
 
 /*
  * Created by Suresh Stalin on 10 / Nov / 2020.

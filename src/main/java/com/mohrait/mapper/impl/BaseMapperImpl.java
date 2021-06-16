@@ -1,10 +1,10 @@
-package com.itgarden.mapper.impl;
-
-import com.itgarden.dto.BaseInfo;
-import com.itgarden.entity.BaseObject;
-import com.itgarden.mapper.BaseMapper;
+package com.mohrait.mapper.impl;
 
 import javax.annotation.Generated;
+
+import com.mohrait.dto.BaseInfo;
+import com.mohrait.entity.BaseObject;
+import com.mohrait.mapper.BaseMapper;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",

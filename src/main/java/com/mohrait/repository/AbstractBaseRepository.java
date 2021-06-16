@@ -1,9 +1,10 @@
-package com.itgarden.repository;
+package com.mohrait.repository;
 
-import com.itgarden.entity.BaseObject;
 import org.springframework.context.annotation.Primary;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
+
+import com.mohrait.entity.BaseObject;
 
 import java.io.Serializable;
 

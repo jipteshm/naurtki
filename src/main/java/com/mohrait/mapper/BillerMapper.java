@@ -1,12 +1,13 @@
-package com.itgarden.mapper;
+package com.mohrait.mapper;
 
-import com.itgarden.dto.BillerInfo;
-import com.itgarden.dto.CategoryInfo;
-import com.itgarden.entity.Biller;
-import com.itgarden.entity.Category;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
+
+import com.mohrait.dto.BillerInfo;
+import com.mohrait.dto.CategoryInfo;
+import com.mohrait.entity.Biller;
+import com.mohrait.entity.Category;
 
 @Mapper(implementationPackage = "mapper.impl")
 public interface BillerMapper {

@@ -1,7 +1,8 @@
-package com.itgarden.dto;
+package com.mohrait.dto;
 
-import com.itgarden.common.staticdata.PurchaseOrderStatus;
-import com.itgarden.entity.BaseObject;
+import com.mohrait.common.staticdata.PurchaseOrderStatus;
+import com.mohrait.entity.BaseObject;
+
 import lombok.Getter;
 import lombok.Setter;
 

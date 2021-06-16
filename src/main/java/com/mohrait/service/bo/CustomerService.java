@@ -1,13 +1,14 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.dto.CustomerInfo;
-import com.itgarden.entity.Customer;
-import com.itgarden.exception.ResourceNotFoundException;
-import com.itgarden.mapper.CustomerMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.dto.CustomerInfo;
+import com.mohrait.entity.Customer;
+import com.mohrait.exception.ResourceNotFoundException;
+import com.mohrait.mapper.CustomerMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.CustomerRepository;
 
 import javax.transaction.Transactional;
 

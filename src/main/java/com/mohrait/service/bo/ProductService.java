@@ -1,22 +1,23 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.common.CodeGenerator;
-import com.itgarden.common.staticdata.CodeType;
-import com.itgarden.common.staticdata.Constants;
-import com.itgarden.common.staticdata.PurchaseOrderStatus;
-import com.itgarden.common.staticdata.STATUS;
-import com.itgarden.dto.OfferInfo;
-import com.itgarden.dto.ProductInfo;
-import com.itgarden.entity.*;
-import com.itgarden.exception.InvalidInputException;
-import com.itgarden.exception.ResourceNotFoundException;
-import com.itgarden.mapper.ProductMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.*;
-import com.itgarden.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
+
+import com.mohrait.common.CodeGenerator;
+import com.mohrait.common.staticdata.CodeType;
+import com.mohrait.common.staticdata.Constants;
+import com.mohrait.common.staticdata.PurchaseOrderStatus;
+import com.mohrait.common.staticdata.STATUS;
+import com.mohrait.dto.OfferInfo;
+import com.mohrait.dto.ProductInfo;
+import com.mohrait.entity.*;
+import com.mohrait.exception.InvalidInputException;
+import com.mohrait.exception.ResourceNotFoundException;
+import com.mohrait.mapper.ProductMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.*;
+import com.mohrait.service.BaseService;
 
 import java.util.ArrayList;
 import java.util.List;

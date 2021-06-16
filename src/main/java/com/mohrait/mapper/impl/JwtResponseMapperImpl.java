@@ -1,10 +1,10 @@
-package com.itgarden.mapper.impl;
-
-import com.itgarden.dto.AuthenticationResponseInfo;
-import com.itgarden.entity.JwtToken;
-import com.itgarden.mapper.JwtResponseMapper;
+package com.mohrait.mapper.impl;
 
 import javax.annotation.Generated;
+
+import com.mohrait.dto.AuthenticationResponseInfo;
+import com.mohrait.entity.JwtToken;
+import com.mohrait.mapper.JwtResponseMapper;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",

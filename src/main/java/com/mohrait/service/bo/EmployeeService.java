@@ -1,14 +1,15 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.dto.EmployeeInfo;
-import com.itgarden.entity.Employee;
-import com.itgarden.exception.ResourceNotFoundException;
-import com.itgarden.mapper.EmployeeMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.dto.EmployeeInfo;
+import com.mohrait.entity.Employee;
+import com.mohrait.exception.ResourceNotFoundException;
+import com.mohrait.mapper.EmployeeMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.EmployeeRepository;
 
 /*
  * Created by Suresh Stalin on 02 / Nov / 2020.

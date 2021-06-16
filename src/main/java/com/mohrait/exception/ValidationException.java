@@ -1,4 +1,4 @@
-package com.itgarden.exception;
+package com.mohrait.exception;
 
 import org.springframework.validation.BindingResult;
 

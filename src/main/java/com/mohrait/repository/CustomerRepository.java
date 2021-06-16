@@ -1,10 +1,11 @@
-package com.itgarden.repository;
+package com.mohrait.repository;
 
-import com.itgarden.entity.Customer;
-import com.itgarden.entity.Vendor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+
+import com.mohrait.entity.Customer;
+import com.mohrait.entity.Vendor;
 
 /*
  * Created by Suresh Stalin on 02 / Nov / 2020.

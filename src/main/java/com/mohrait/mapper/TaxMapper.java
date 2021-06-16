@@ -1,12 +1,13 @@
-package com.itgarden.mapper;
+package com.mohrait.mapper;
 
-import com.itgarden.dto.TaxInfo;
-import com.itgarden.dto.UserInfo;
-import com.itgarden.entity.Tax;
-import com.itgarden.entity.User;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
+
+import com.mohrait.dto.TaxInfo;
+import com.mohrait.dto.UserInfo;
+import com.mohrait.entity.Tax;
+import com.mohrait.entity.User;
 
 /*
  * Created by Suresh Stalin on 23 / Nov / 2020.

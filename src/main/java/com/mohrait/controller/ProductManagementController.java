@@ -1,16 +1,17 @@
-package com.itgarden.controller;
+package com.mohrait.controller;
 
-import com.itgarden.dto.ProductInfo;
-import com.itgarden.dto.ProductItemInfo;
-import com.itgarden.entity.Product;
-import com.itgarden.entity.ProductItem;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.service.bo.ProductItemService;
-import com.itgarden.service.bo.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.mohrait.dto.ProductInfo;
+import com.mohrait.dto.ProductItemInfo;
+import com.mohrait.entity.Product;
+import com.mohrait.entity.ProductItem;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.service.bo.ProductItemService;
+import com.mohrait.service.bo.ProductService;
 
 import javax.validation.Valid;
 

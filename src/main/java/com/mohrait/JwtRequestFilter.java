@@ -1,11 +1,5 @@
-package com.itgarden;
+package com.mohrait;
 
-import com.itgarden.common.staticdata.TokenType;
-import com.itgarden.exception.InvalidInputException;
-import com.itgarden.exception.InvalidTokenException;
-import com.itgarden.repository.JwtTokenRepository;
-import com.itgarden.security.JwtUtils;
-import com.itgarden.service.bo.AuthenticationService;
 import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -17,6 +11,13 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
+
+import com.mohrait.common.staticdata.TokenType;
+import com.mohrait.exception.InvalidInputException;
+import com.mohrait.exception.InvalidTokenException;
+import com.mohrait.repository.JwtTokenRepository;
+import com.mohrait.security.JwtUtils;
+import com.mohrait.service.bo.AuthenticationService;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

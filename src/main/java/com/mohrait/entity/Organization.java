@@ -1,4 +1,4 @@
-package com.itgarden.entity;
+package com.mohrait.entity;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,7 +1,8 @@
-package com.itgarden.repository;
+package com.mohrait.repository;
 
-import com.itgarden.entity.Biller;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.mohrait.entity.Biller;
 
 public interface BillerRepository extends JpaRepository<Biller,Long> {
 }

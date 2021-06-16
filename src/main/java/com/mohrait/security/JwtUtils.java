@@ -1,12 +1,6 @@
-package com.itgarden.security;
+package com.mohrait.security;
 
 
-import com.itgarden.common.staticdata.TokenType;
-import com.itgarden.entity.JwtToken;
-import com.itgarden.exception.InvalidInputException;
-import com.itgarden.exception.InvalidTokenException;
-import com.itgarden.repository.JwtTokenRepository;
-import com.itgarden.repository.UserRepository;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -14,6 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.common.staticdata.TokenType;
+import com.mohrait.entity.JwtToken;
+import com.mohrait.exception.InvalidInputException;
+import com.mohrait.exception.InvalidTokenException;
+import com.mohrait.repository.JwtTokenRepository;
+import com.mohrait.repository.UserRepository;
 
 import java.time.LocalDateTime;
 import java.util.*;

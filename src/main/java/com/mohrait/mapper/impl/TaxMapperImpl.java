@@ -1,10 +1,10 @@
-package com.itgarden.mapper.impl;
-
-import com.itgarden.dto.TaxInfo;
-import com.itgarden.entity.Tax;
-import com.itgarden.mapper.TaxMapper;
+package com.mohrait.mapper.impl;
 
 import javax.annotation.Generated;
+
+import com.mohrait.dto.TaxInfo;
+import com.mohrait.entity.Tax;
+import com.mohrait.mapper.TaxMapper;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",

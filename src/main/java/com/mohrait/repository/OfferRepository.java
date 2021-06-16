@@ -1,8 +1,9 @@
-package com.itgarden.repository;
+package com.mohrait.repository;
 
 
-import com.itgarden.entity.Offer;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.mohrait.entity.Offer;
 
 import java.util.List;
 

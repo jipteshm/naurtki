@@ -1,10 +1,11 @@
-package com.itgarden.mapper;
+package com.mohrait.mapper;
 
-import com.itgarden.dto.AuthenticationResponseInfo;
-import com.itgarden.entity.JwtToken;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
+
+import com.mohrait.dto.AuthenticationResponseInfo;
+import com.mohrait.entity.JwtToken;
 
 /*
  * Created by Suresh Stalin on 10 / Nov / 2020.

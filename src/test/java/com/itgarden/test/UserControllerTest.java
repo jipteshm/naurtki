@@ -1,8 +1,5 @@
 package com.itgarden.test;
 
-import com.itgarden.entity.Address;
-import com.itgarden.entity.Role;
-import com.itgarden.entity.User;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -12,6 +9,10 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
+
+import com.mohrait.entity.Address;
+import com.mohrait.entity.Role;
+import com.mohrait.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;

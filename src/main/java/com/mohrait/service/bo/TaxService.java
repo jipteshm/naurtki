@@ -1,15 +1,16 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.common.staticdata.Constants;
-import com.itgarden.dto.TaxInfo;
-import com.itgarden.entity.Tax;
-import com.itgarden.mapper.TaxMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.TaxRepository;
-import com.itgarden.service.BaseService;
-import com.itgarden.service.BillingBaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.common.staticdata.Constants;
+import com.mohrait.dto.TaxInfo;
+import com.mohrait.entity.Tax;
+import com.mohrait.mapper.TaxMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.TaxRepository;
+import com.mohrait.service.BaseService;
+import com.mohrait.service.BillingBaseService;
 
 import java.util.ArrayList;
 import java.util.List;

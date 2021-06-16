@@ -1,4 +1,4 @@
-package com.itgarden.messages;
+package com.mohrait.messages;
 
 import lombok.*;
 

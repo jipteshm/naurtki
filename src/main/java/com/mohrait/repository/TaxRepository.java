@@ -1,7 +1,8 @@
-package com.itgarden.repository;
+package com.mohrait.repository;
 
-import com.itgarden.entity.Tax;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.mohrait.entity.Tax;
 
 /*
  * Created by Suresh Stalin on 23 / Nov / 2020.

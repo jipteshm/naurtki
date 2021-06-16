@@ -1,11 +1,12 @@
-package com.itgarden.repository;
+package com.mohrait.repository;
 
-import com.itgarden.entity.Role;
-import com.itgarden.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import com.mohrait.entity.Role;
+import com.mohrait.entity.User;
 
 import java.util.Optional;
 

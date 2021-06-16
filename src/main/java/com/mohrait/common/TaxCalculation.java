@@ -1,4 +1,4 @@
-package com.itgarden.common;
+package com.mohrait.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

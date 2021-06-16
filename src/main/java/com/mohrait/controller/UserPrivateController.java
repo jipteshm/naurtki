@@ -1,18 +1,19 @@
-package com.itgarden.controller;
+package com.mohrait.controller;
 
-import com.itgarden.common.staticdata.UserType;
-import com.itgarden.dto.*;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.service.bo.CustomerService;
-import com.itgarden.service.bo.EmployeeService;
-import com.itgarden.service.bo.RegistrationService;
-import com.itgarden.service.bo.VendorService;
-import com.itgarden.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+
+import com.mohrait.common.staticdata.UserType;
+import com.mohrait.dto.*;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.service.bo.CustomerService;
+import com.mohrait.service.bo.EmployeeService;
+import com.mohrait.service.bo.RegistrationService;
+import com.mohrait.service.bo.VendorService;
+import com.mohrait.validator.UserValidator;
 
 import javax.validation.Valid;
 

@@ -1,7 +1,5 @@
-package com.itgarden.security;
+package com.mohrait.security;
 
-import com.itgarden.JwtRequestFilter;
-import com.itgarden.service.bo.AuthenticationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -15,6 +13,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+import com.mohrait.JwtRequestFilter;
+import com.mohrait.service.bo.AuthenticationService;
 
 /*
  * Created by Suresh Stalin on 06 / Nov / 2020.
@@ -41,11 +42,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable()
+        http.csrf().disable().antMatcher("/")
                 .authorizeRequests()
                 .antMatchers("/api/public/authenticate",
-                        "/api/public/refreshtoken","/api/public/orgs","/api/public/test/ping").permitAll()
-                .antMatchers("/api/private/users/**")
+                        "/api/public/refreshtoken","/api/public/orgs","/api/public/test/ping", "/swagger-ui.html").permitAll()
+                .antMatchers("/api/private/users/**", "/v2/api-docs")
                     .hasAnyAuthority("EMPLOYEE_ROLE","SUPER_ADMIN")
                 .anyRequest().authenticated()
                 .and().sessionManagement()

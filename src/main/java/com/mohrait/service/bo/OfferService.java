@@ -1,18 +1,19 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.common.CodeGenerator;
-import com.itgarden.common.staticdata.CodeType;
-import com.itgarden.common.staticdata.Constants;
-import com.itgarden.common.staticdata.STATUS;
-import com.itgarden.dto.OfferInfo;
-import com.itgarden.entity.Offer;
-import com.itgarden.mapper.OfferMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.OfferRepository;
-import com.itgarden.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
+
+import com.mohrait.common.CodeGenerator;
+import com.mohrait.common.staticdata.CodeType;
+import com.mohrait.common.staticdata.Constants;
+import com.mohrait.common.staticdata.STATUS;
+import com.mohrait.dto.OfferInfo;
+import com.mohrait.entity.Offer;
+import com.mohrait.mapper.OfferMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.OfferRepository;
+import com.mohrait.service.BaseService;
 
 import java.util.ArrayList;
 import java.util.List;

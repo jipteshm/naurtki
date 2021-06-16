@@ -1,10 +1,11 @@
-package com.itgarden.entity;
+package com.mohrait.entity;
 
-import com.itgarden.common.staticdata.CodeType;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+
+import com.mohrait.common.staticdata.CodeType;
 
 /*
  * Created by Suresh Stalin on 20 / Oct / 2020.

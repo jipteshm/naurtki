@@ -1,16 +1,17 @@
-package com.itgarden.controller;
+package com.mohrait.controller;
 
-import com.itgarden.common.CodeGenerator;
-import com.itgarden.common.staticdata.CodeType;
-import com.itgarden.dto.PurchaseOrderInfo;
-import com.itgarden.entity.PurchaseOrder;
-import com.itgarden.mapper.PurchaseOrderMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.service.bo.PurchaseOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.mohrait.common.CodeGenerator;
+import com.mohrait.common.staticdata.CodeType;
+import com.mohrait.dto.PurchaseOrderInfo;
+import com.mohrait.entity.PurchaseOrder;
+import com.mohrait.mapper.PurchaseOrderMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.service.bo.PurchaseOrderService;
 
 @RestController
 @RequestMapping("api/private/product")

@@ -1,12 +1,13 @@
-package com.itgarden.service;
+package com.mohrait.service;
 
-import com.itgarden.entity.BaseObject;
-import com.itgarden.repository.AbstractBaseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+
+import com.mohrait.entity.BaseObject;
+import com.mohrait.repository.AbstractBaseRepository;
 
 import java.io.Serializable;
 import java.util.List;

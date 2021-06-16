@@ -1,4 +1,4 @@
-package com.itgarden.common;
+package com.mohrait.common;
 
 import org.springframework.util.StringUtils;
 

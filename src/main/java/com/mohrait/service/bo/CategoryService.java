@@ -1,17 +1,18 @@
-package com.itgarden.service.bo;
+package com.mohrait.service.bo;
 
-import com.itgarden.common.CodeGenerator;
-import com.itgarden.common.staticdata.CodeType;
-import com.itgarden.common.staticdata.Constants;
-import com.itgarden.dto.CategoryInfo;
-import com.itgarden.entity.Category;
-import com.itgarden.mapper.CategoryMapper;
-import com.itgarden.messages.ResponseMessage;
-import com.itgarden.repository.CategoryRepository;
-import com.itgarden.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
+
+import com.mohrait.common.CodeGenerator;
+import com.mohrait.common.staticdata.CodeType;
+import com.mohrait.common.staticdata.Constants;
+import com.mohrait.dto.CategoryInfo;
+import com.mohrait.entity.Category;
+import com.mohrait.mapper.CategoryMapper;
+import com.mohrait.messages.ResponseMessage;
+import com.mohrait.repository.CategoryRepository;
+import com.mohrait.service.BaseService;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.itgarden.common.staticdata;
+package com.mohrait.common.staticdata;
 
 public enum STATUS {
 

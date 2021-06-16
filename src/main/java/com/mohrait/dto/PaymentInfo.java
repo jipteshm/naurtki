@@ -1,13 +1,14 @@
-package com.itgarden.dto;
+package com.mohrait.dto;
 
-import com.itgarden.entity.BaseObject;
-import com.itgarden.entity.Biller;
-import com.itgarden.entity.ProductItem;
-import com.itgarden.entity.Tax;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+
+import com.mohrait.entity.BaseObject;
+import com.mohrait.entity.Biller;
+import com.mohrait.entity.ProductItem;
+import com.mohrait.entity.Tax;
 
 @Getter
 @Setter

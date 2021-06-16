@@ -1,10 +1,11 @@
-package com.itgarden.mapper;
+package com.mohrait.mapper;
 
-import com.itgarden.dto.BaseInfo;
-import com.itgarden.entity.BaseObject;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
+
+import com.mohrait.dto.BaseInfo;
+import com.mohrait.entity.BaseObject;
 
 /*
  * Created by Suresh Stalin on 17 / Oct / 2020.

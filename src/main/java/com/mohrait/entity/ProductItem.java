@@ -1,7 +1,8 @@
-package com.itgarden.entity;
+package com.mohrait.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.itgarden.common.staticdata.StockStatus;
+import com.mohrait.common.staticdata.StockStatus;
+
 import lombok.Getter;
 import lombok.Setter;
 

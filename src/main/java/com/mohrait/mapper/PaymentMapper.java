@@ -1,10 +1,11 @@
-package com.itgarden.mapper;
+package com.mohrait.mapper;
 
-import com.itgarden.dto.PaymentInfo;
-import com.itgarden.entity.Payment;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
+
+import com.mohrait.dto.PaymentInfo;
+import com.mohrait.entity.Payment;
 
 @Mapper(implementationPackage = "mapper.impl")
 public interface PaymentMapper {
