@@ -8,11 +8,11 @@
 		<version>2.3.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.itgarden</groupId>
-	<artifactId>billingsystem</artifactId>
+	<groupId>com.mohra</groupId>
+	<artifactId>naurtki</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>billingsystem</name>
-	<description>Billing App for retailer shop</description>
+	<name>naurtki</name>
+	<description>Naurtki App</description>
 
 	<properties>
 		<java.version>1.8</java.version>
