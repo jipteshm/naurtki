@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: naurtki
+    version: 1.0.0
+  banner:
+    location: classpath:/banner/banner.txt
   jpa:
     show-sql: true
     hibernate:

@@ -69,6 +69,9 @@ public class PurchaseOrderService extends BaseService {
         purchaseOrder.setTotalAmount(taxCalculationResponse.getTotalAmount());
         purchaseOrder.setGrandTotal(taxCalculationResponse.getGrandTotal());
         purchaseOrder.setTaxAmount(taxCalculationResponse.getTaxAmount());
+        
+        purchaseOrder.setPurchaseOrderStatus(PurchaseOrderStatus.INITIATED);
+        
         PurchaseOrder newPurchaseOrder = purchaseOrderRepository.save(purchaseOrder);
         PurchaseOrderInfo newPurchaseOrderInfo = PurchaseOrderMapper
                 .INSTANCE.purchaseOrderToPurchaseOrderInfo(newPurchaseOrder);
