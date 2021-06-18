@@ -10,9 +10,9 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
-import com.mohra.entity.Address;
-import com.mohra.entity.Role;
-import com.mohra.entity.User;
+import com.mohra.naurtki.entity.Address;
+import com.mohra.naurtki.entity.Role;
+import com.mohra.naurtki.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;
